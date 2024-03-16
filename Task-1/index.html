@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>The Task</title>
+</head>
+<body>
+    <div class="main">
+        <div class="menu-btn"><i class="fa-solid fa-bars"></i></div>
+        <div class="nav-container">
+            <div class="logo">
+                <p><i class="fa-solid fa-cube"></i> DROPPEX</p>
+            </div>
+            <div class="folder"><button class="folder-btn"><i class="fa-solid fa-folder-plus"></i> New Folder</button></div>
+            <div class="home-trash">
+                <span></span><button class="home"><i class="fa-solid fa-table-cells-large"></i> Home</button>
+            </div>
+            <div class="trash-div"><button class="trash"><i class="fa-regular fa-trash-can"></i> Trash</button></div>
+            <hr>
+            <div class="storage">
+                <p class="storage-title"><i class="fa-solid fa-cloud"></i> Storage</p>
+                <div class="container">
+                    <div class="ui-widgets">
+                        <div class="ui-values">25%</div>
+                    </div>
+                    <div class="ui-labels">10GB / 100GB</div>
+                </div>
+            </div>
+        </div>
+        <div class="main-container">
+            <div class="input">
+                <input class="search-input" type="text" placeholder="Search for file, folder, shared storehouse">
+                <button class="drag"><i class="fa-solid fa-cloud-arrow-up" style="font-size: 15px; padding-right: 5px;"></i> Drag and drop<a href="/">files</a>, <a href="/">folders</a> or <a href="/">links</a></button>
+                <i class="fa-solid fa-link" style="color: white; font-size: 18px;"></i>
+                <i class="fa-solid fa-circle-user fa-xl" style="color: white; font-size: 20px;"></i>
+            </div>
+            <div class="title-div">
+                <p class="drive-name">Ramy Main Drive</p>
+                <i class="fa-solid fa-circle-info" style="color: #77797e;"></i>
+            </div>
+            <div class="state">
+                <div class="state-prg">
+                    <p>Select folder or file to see options</p>
+                    <p class="second-prg">No item selected</p>
+                </div>
+                <div class="iconly-filter">
+                    <i class="fa-solid fa-arrow-down-up-across-line"></i>
+                    <i class="fa-regular fa-filter"></i>
+                </div>
+                <div class="icons">
+                    <i class="fa-regular fa-eye"></i>
+                    <i class="fa-regular fa-square-check"></i>
+                    <i class="fa-regular fa-diagram-next"></i>
+                    <i class="fa-regular fa-square-caret-left"></i>
+                </div>
+            </div>
+            <div >
+                <table> 
+                    <thead class="first-header"> 
+                        <tr> 
+                            <th><input type="checkbox"> Name</th> 
+                            <th>Uploaded</th>
+                            <th>Size</th>
+                            <th>View No.</th>
+                            <th>Last modified <i class="fa-solid fa-chevron-down"></i></th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody class="scrollable-body"> 
+                                <tr>
+                                    <td><input type="checkbox" name="" id=""> <i class="fa-regular fa-folder"></i>  Documents</td> 
+                                    <td>November 26, 2022 3:18 AM 2 </td>
+                                    <td>86.8 KB</td>
+                                    <td>0 times</td>
+                                    <td>Dec 10, 2022 2:00PM user@gmail.com</td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="" id=""> <img class="folder-img" src="https://s3-alpha-sig.figma.com/img/3ba8/8287/6c314c3b0c3349bfc27f3d7e72ea4147?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gwIlyMG-aeEkcfcCxECTChRpILCMXsrBvkvECcUm0TrMV4o8rvhiD75uBj7L2sIiHUhjQBijUaG2n-DyCG10MXUWtFIIQbvth4HWa1jntUpMuazy0t1cBJ~QUQtq1oJKC4nWXBYqS3cBh3gbwQ~MIOcPRm3r7OeW3OUzlswmghNqViV~xXSYM2JMrj8qNWU3OSms6RK0S3eMaATw6HFF1XukjutozX7oh5pLt7kIK0z1CBKUpu7KKSEkTHMXjmayPfaUJI1yxmmYU3iThzfQVglctnWfgD9NVqZeGlIoauutXwuZJ5mWWdoxWA5ljI58yQKQY0Xi-gnMaNVFDiRJjA__" alt="file-img" width="20px" height="20px" > the file that is asdasdasdasa</td>
+                                    <td>November 26, 2022 3:18 AM 2</td>
+                                    <td>86.8 KB</td>
+                                    <td>2 times</td>
+                                    <td>Dec 10, 2022 2:00PM user@gmail.comasd </td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="" id=""> <i class="fa-regular fa-folder"></i>  Documents</td>
+                                    <td>November 26, 2022 3:18 AM 2</td>
+                                    <td>86.8 KB</td>
+                                    <td>2 times</td>
+                                    <td>Dec 10, 2022 2:00PM user@gmail.com</td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="" id=""> <i class="fa-regular fa-folder"></i>  Documents</td>
+                                    <td>November 26, 2022 3:18 AM 2</td>
+                                    <td>86.8 KB</td>
+                                    <td>2 times</td>
+                                    <td>Dec 10, 2022 2:00PM user@gmail.com</td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="" id=""> <i class="fa-regular fa-folder"></i>  Documents</td>
+                                    <td>November 26, 2022 3:18 AM 2</td>
+                                    <td>86.8 KB</td>
+                                    <td>2 times</td>
+                                    <td>Dec 10, 2022 2:00PM user@gmail.com</td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="" id=""> <i class="fa-regular fa-folder"></i>  Documents</td>
+                                    <td>November 26, 2022 3:18 AM 2</td>
+                                    <td>86.8 KB</td>
+                                    <td>2 times</td>
+                                    <td>Dec 10, 2022 2:00PM user@gmail.com</td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="" id=""> <i class="fa-regular fa-folder"></i>  Documents</td>
+                                    <td>November 26, 2022 3:18 AM 2</td>
+                                    <td>86.8 KB</td>
+                                    <td>2 times</td>
+                                    <td>Dec 10, 2022 2:00PM user@gmail.com</td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="" id=""> <i class="fa-regular fa-folder"></i>  Documents</td>
+                                    <td>November 26, 2022 3:18 AM 2</td>
+                                    <td>86.8 KB</td>
+                                    <td>2 times</td>
+                                    <td>Dec 10, 2022 2:00PM user@gmail.com</td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="" id=""> <i class="fa-regular fa-folder"></i>  Documents</td>
+                                    <td>November 26, 2022 3:18 AM 2</td>
+                                    <td>86.8 KB</td>
+                                    <td>2 times</td>
+                                    <td>Dec 10, 2022 2:00PM user@gmail.com</td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="" id=""> <i class="fa-regular fa-folder"></i>  Documents</td>
+                                    <td>November 26, 2022 3:18 AM 2</td>
+                                    <td>86.8 KB</td>
+                                    <td>2 times</td>
+                                    <td>Dec 10, 2022 2:00PM user@gmail.com</td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="" id=""> <i class="fa-regular fa-folder"></i>  Documents</td>
+                                    <td>November 26, 2022 3:18 AM 2</td>
+                                    <td>86.8 KB</td>
+                                    <td>2 times</td>
+                                    <td>Dec 10, 2022 2:00PM user@gmail.com</td>
+                                </tr>
+                                <!-- Add more rows as needed -->
+                            </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+        
+</body>
+</html>
